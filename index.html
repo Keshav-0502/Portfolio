@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Ke<span>sh</span>av</a>
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+  
+            <li><a href="#about" class="nav__link">About</a></li>
+  
+            <li><a href="#services" class="nav__link">Services</a></li>
+  
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+  
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+        <div class="nav__socials">
+          <a 
+          href="https://github.com/Keshav-0502"
+          target="_blank"
+          class="nav__social-link">
+          <i class="uil uil-github"></i></a>
+  
+          <a 
+          href="www.X.com"
+          target="_blank"
+          class="nav__social-link">
+          <i class="uil uil-twitter"></i></a>
+  
+          <a 
+          href="https://www.linkedin.com/in/keshav-sharma-76b5352b3/"
+          target="_blank"
+          class="nav__social-link">
+          <i class="uil uil-linkedin"></i></a>
+  
+          <a 
+          href="https://www.instagram.com/keshav_0502?igsh=MTV2bWR5M3A5N2V3eA=="
+          target="_blank"
+          class="nav__social-link">
+          <i class="uil uil-instagram"></i></a>
+  
+        </div>
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+          <div class="nav__toggle" id="nav-toggle">
+          
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to my World </span>
+            <h1 class="home__title">Hey, I'm Keshav <span> ML Engineer.</span></h1>
+
+          </div>
+          <img src="assets/img/home.jpeg" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid"> 
+          <img src="assets/img/about.jpg" alt="" class="about__image">
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">I am a third-year B.Tech (Artificial Intelligence) student at Amity University with a robust foundation in machine learning, deep learning, and programming. My academic journey has equipped me with a strong grasp of machine learning concepts, particularly deep learning, through hands-on experience. I thrive in collaborative environments, bringing strong communication, teamwork, problem-solving skills, and adaptability to the table. Additionally, my active participation in college clubs has honed my leadership and management abilities, ensuring I contribute effectively to any team and project.</p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education & Certification</span>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Deep Neural Networks (DNN)</span> - ANN, CNN, RNN
+                    <span>Making regression and classsification models</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Data Science </span> - Machine Learning
+                    <span>Preprocessing and using ML algorithms</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Large Language Models</span> - LLMs
+                    <span>Chatbots and chat assistant by finetuning LLMs using RAG</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>DevOps</span> - Docker, Kubernetes
+                    <span>Improving and shortening the systems development life cycle.</span>
+                  </p>
+                
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Data Science Intern</span> - Ardra AI 
+                    <span>Apr,2024 - present</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Vice President</span> - GFG Student Chapter Amity
+                    <span>2024 - 2025</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Event Team</span> - GFG Student Chapter Amity
+                    <span>2023 - 2024</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Amity University Noida</span> - BTech (AI)
+                    <span>2022 - 2026</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Shaheed Rajpal DAV Public School </span> - High School
+                    <span>2019 - 2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Bal Bharati Public School</span> 
+                    <span>2009 - 2019</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Python for data science</span> - NPTEL
+                    <span>Issued Apr 2024</span>
+                  </p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Awesome Service</h2>
+        <p class="section__description">Explore my range of professional services designed to help you leverage cutting-edge AI technology. From custom AI solutions to insightful data analysis, I provide expert services to drive innovation and success.</p>
+        <div class="services__container container grid">
+          
+          <div class="services__item">
+            <i class="uil uil-bag services__icon"></i>
+            <h3 class="services__title">Custom AI Solutions</h3>
+            <p class="services__description">Leverage my expertise in AI to develop tailored solutions for your business needs, from automating processes to enhancing decision-making.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-brain services__icon"></i>
+            <h3 class="services__title">Machine Learning & Deep Learning Projects</h3>
+            <p class="services__description">Develop and deploy robust machine learning and deep learning models to solve complex problems and derive valuable insights from data.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-brackets-curly services__icon"></i>
+            <h3 class="services__title">Large Language Model (LLM) Fine-Tuning</h3>
+            <p class="services__description">Enhance the capabilities of chatbots and virtual assistants by fine-tuning large language models using Retrieval-Augmented Generation (RAG) techniques.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-analytics services__icon"></i>
+            <h3 class="services__title">Data Analysis & Visualization</h3>
+            <p class="services__description">Transform raw data into actionable insights with comprehensive data analysis and visualization services, enabling data-driven decision-making.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-box services__icon"></i>
+            <h3 class="services__title">DevOps & CI/CD Implementation</h3>
+            <p class="services__description">Improve your systems development life cycle with DevOps practices, including containerization with Docker, orchestration with Kubernetes, and implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-eye services__icon"></i>
+            <h3 class="services__title">Computer Vision Solutions</h3>
+            <p class="services__description">Develop and deploy advanced computer vision applications, including image recognition, object detection, and medical imaging analysis, to automate and enhance visual data processing tasks.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">Explore my most recent work where I harness advanced AI techniques to solve complex problems and deliver impactful results.</p>
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-1.png" alt="" class="portfolio__img"/>
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Artficial Intelligence</p>
+              <h3 class="portfolio__title">CNN Classification</h3>
+              <p class="portfolio__description">Developed a CNN model for spine lesion detection and classification using the VinDr-SpineXR dataset, achieving over 85% accuracy.</p>
+
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-2.png" alt="" class="portfolio__img"/>
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">LLM Fine-Tuning Using RAG</p>
+              <h3 class="portfolio__title">SpaceGPT</h3>
+              <p class="portfolio__description">Developed and fine-tuned SpaceGPT, a large language model, using Retrieval-Augmented Generation (RAG) techniques to enhance its accuracy and relevance in generating space-related content. The project involved integrating extensive datasets, optimizing model performance, and achieving significant improvements in response quality and contextual understanding.</p>
+
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-3.png" alt="" class="portfolio__img"/>
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Machine learning</p>
+              <h3 class="portfolio__title">Predicting Bond Strength of Reinforced Concrete</h3>
+              <p class="portfolio__description">Conducted an in-depth analysis utilizing machine learning algorithms to predict the bond strength of reinforced concrete. The project involved data collection, feature engineering, and model training to accurately forecast bond strength, providing valuable insights for construction and civil engineering applications.</p>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+
+          <p class="contact__description">
+            I am available for freelance work. Connect with me via phone:
+            <a href="tel:+91 7042881303">91-7042881303</a> or email: <a href="mailto: ks.keshav05@gmail.com">ks.keshav05@gmail.com</a>
+          </p>
+          <form  class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input 
+              type="text" 
+              name="name"
+              class="contact__input" 
+              placeholder="Your Name *"
+              id="contact-name"/>
+            </div>
+
+            <div class="contact__form-input">
+              <input 
+              type="email" 
+              name="email"
+              class="contact__input" 
+              placeholder="Your e-mail"
+              id="contact-email"/>
+            </div>
+
+            <div class="contact__form-input">
+              <input 
+              type="text" 
+              name="subject"
+              class="contact__input" 
+              placeholder="Write a Subject"
+              id="contact-subject"/>
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your message"></textarea>
+            </div>
+            <input type="Submit" value="Submit" class="btn"/>
+            <p class="error__message" id="error-message"></p>
+          </form>
+          </div>
+
+          <img src="assets/img/contact.jpg" alt="" class="contact__image">
+        </div>
+      </section>
+    </main>
+
+    <!--=============== footer ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">Ke<span>sh</span>av</a>
+        <div class="footer__socials">
+          <a 
+          href="https://github.com/Keshav-0502"
+          target="_blank"
+          class="footer__social-link">
+          <i class="uil uil-github"></i></a>
+  
+          <a 
+          href="www.X.com"
+          target="_blank"
+          class="footer__social-link">
+          <i class="uil uil-twitter"></i></a>
+  
+          <a 
+          href="https://www.linkedin.com/in/keshav-sharma-76b5352b3/"
+          target="_blank"
+          class="footer__social-link">
+          <i class="uil uil-linkedin"></i></a>
+  
+          <a 
+          href="https://www.instagram.com/keshav_0502?igsh=MTV2bWR5M3A5N2V3eA=="
+          target="_blank"
+          class="footer__social-link">
+          <i class="uil uil-instagram"></i></a>
+  
+        </div>
+        <p class="footer__copyright">&copy; 2024. All rights reserved.
+        </p>
+      </div>
+      
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+      
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
